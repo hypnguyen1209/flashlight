@@ -29,7 +29,6 @@ export default function App() {
             setBrightness(presentBrightness)
             setPresentBrightness(!presentBrightness)
         }}>
-            <Text>Vui lòng allow SYSTEM_BRIGHTNESS</Text>
             <StatusBar style="auto" />
         </View>
     );
